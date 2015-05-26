@@ -24,5 +24,12 @@
   "bugs": {
     "url": "https://github.com/tandrewnichols/itsyourturn-pgns/issues"
   },
-  "homepage": "https://github.com/tandrewnichols/itsyourturn-pgns"
+  "homepage": "https://github.com/tandrewnichols/itsyourturn-pgns",
+  "bin": {
+    "iyt": "bin/iyt.js"
+  },
+  "dependencies": {
+    "commander": "^2.8.1",
+    "request": "^2.55.0"
+  }
 }
